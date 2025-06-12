@@ -1,0 +1,13 @@
+/.idea/
+/.gradle/
+/.intellijPlatform/
+/.kotlin/
+
+bin/
+obj/
+build/
+
+/src/rider/generated/**/*.Generated.kt
+/src/dotnet/Rider.Plugins.TddBuddy/Model/**/*.Generated.cs
+
+/src/dotnet/nuget.config
