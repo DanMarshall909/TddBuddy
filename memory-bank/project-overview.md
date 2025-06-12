@@ -112,3 +112,11 @@ TddBuddy is a JetBrains Rider plugin designed to support Test-Driven Development
 - Codebase is maintainable and extendable
 - Positive user feedback and adoption
 - Successful JetBrains Marketplace publication
+
+## Plugin Infrastructure (as of 2025-06-12)
+
+- Rider plugin structure established with Kotlin and .NET interop.
+- CI and Release workflows set up for automated builds and publishing.
+- `plugin.xml` defines plugin metadata, version, and registers a startup activity.
+- On IDE startup, a red border is shown for demo/testing (via `UIFeedbackStartupActivity`).
+- Ready for further TDD feedback loop integration and protocol wiring.
